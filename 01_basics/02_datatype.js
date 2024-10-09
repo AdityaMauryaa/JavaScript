@@ -5,7 +5,7 @@
 
 // console.log(3+3)    console.log(3+3).  //will give error
 console.log(4+4) //valid
-console.log('1'+4) ;  //valid
+console.log('1'+4) ;  //valid.  
 
 
 let name="Aditay" //string datatype
