@@ -67,3 +67,39 @@ let num=33
 num=String(num)
 console.log(num)
 console.log(typeof num)
+
+
+//***************************** OPERATIONS *********************//
+
+console.log("")
+console.log("--------------Other OPerations 1----------******")
+console.log("")
+
+let value=3
+let negValue=-value /// negative value asisgned
+console.log(negValue)
+
+let str1="Aditya"
+let str2=" Maurya"
+console.log(str1+str2) //summation of strings
+console.log(str1-str2) //Negation will result in NaN
+
+console.log("")
+console.log("--------------Other OPerations 2----------******")
+console.log("")
+
+
+console.log(1+"2") // result 12
+console.log("1"+2) // result 12
+console.log("1"+2+2) // result 122. // from string and ahead evryone will treated as string and before string number
+console.log(1+2+"4") //result 34
+console.log(1+2+"3"+4) //result 334
+
+
+let v=100;
+console.log(++v); //first increment the print
+console.log(v++); // print then increment
+console.log("2">1) // for comparison datatype preffered to be same as in javascript sometimes result if not desired
+// here its not strict to use same datatype comparision
+
+
