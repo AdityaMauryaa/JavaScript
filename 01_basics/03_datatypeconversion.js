@@ -78,7 +78,6 @@ console.log("")
 let value=3
 let negValue=-value /// negative value asisgned
 console.log(negValue)
-
 let str1="Aditya"
 let str2=" Maurya"
 console.log(str1+str2) //summation of strings
