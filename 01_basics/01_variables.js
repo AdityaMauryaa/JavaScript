@@ -1,4 +1,6 @@
-const accountId =144553
+// for variable-> (reserved variable) (variable name) (type of value)
+// let /const/ var can be used
+const accountId =144553 // assigned as const so wont be able to change in further
 let accountEmail="aditya@google.com"
 var accountPassword="Aditay"
 let accout;//undefined 
