@@ -1,5 +1,4 @@
 "use strict"; // use to treat all code as newer version of javascript
-
 //alert(3+3).    // we are using node.js so its not useful in browser it will give 6 but here error
 
 
