@@ -38,6 +38,7 @@
 // console.log(url.replace('-','#'))// will replace first one with second one
    
 
+// Practice further
 
 let firstName="Aditya";
 let secondName="Maurya";
@@ -103,12 +104,17 @@ console.log(firstName.split(" ").join("______"));// will return string separtaed
 
   // Using backticks 
   let disc=`This is just and example of multiline string
-  using double quotes usnig spaces and tabs shift 
- which is just not possible so isntead od double quotes we use backticks`
+using double quotes usnig spaces and tabs shift 
+which is just not possible so isntead od double quotes we use backticks`
  console.log(disc);
  
+ // 8. Log your message
  let newName="Aditya";
  let newlName ="Maurya";
  let full_name=`${newName} ${newlName};`// will act as kind of template
  console.log(full_name);
+ let message=`A text message just for practice using ${newName.toUpperCase()}`;
+ message+=`added a new sentence`;
+ console.log(message);
+
  
