@@ -1,7 +1,6 @@
 // for variable-> (reserved variable) (variable name) (type of value)
 // let /const/ var(not used enough) can be used
 
-
 // var :-
         //Scope:
             //. var is function-scoped, meaning it is accessible anywhere within the function
