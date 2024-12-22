@@ -65,3 +65,21 @@ greetings('Aditya')
             console.log(value);
         }
     )
+
+    //ArrowFuntion
+
+    // Before Arrow:
+    hello = function() {
+    return "Hello World!";
+    }
+
+    // With Arrow Function:
+    hello = () => {
+    return "Hello World!";
+    }
+
+    // Arrow Functions Return Value by Default:
+    hello = () => "Hello World!";
+    
+    // Arrow Function Without Parentheses:
+    hello = val => "Hello " + val;
