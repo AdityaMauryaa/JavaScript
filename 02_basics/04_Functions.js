@@ -83,3 +83,6 @@ greetings('Aditya')
     
     // Arrow Function Without Parentheses:
     hello = val => "Hello " + val;
+
+
+    // Methods are the function inside object
