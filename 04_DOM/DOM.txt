@@ -1,0 +1,6 @@
+DOM -Document object Model
+A way to access HTML code in javascript,
+We use these information to change in html using javascript,
+Because when we are accessing any file html cant change its code itself in runtime therefore,
+we use javascript to change dynamicaaly during runtime,
+This can also be called as dynamic manipulation.
