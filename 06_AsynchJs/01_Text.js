@@ -30,15 +30,22 @@ these will be working without waiting for asyn one...
 // console.log("5")
 
 //callback function-a function argument to another function;
-function sum(a,b){
-console.log(a+b);
-}
-function calculator(a,b,sumCallBack){
-    sumCallBack(a,b);
-}
-calculator(4,5,(a,b)=>{
-    console.log(a+b)
-});
+
+// function sum(a,b){
+// console.log(a+b);
+// }
+// function calculator(a,b,sumCallBack){
+//     sumCallBack(a,b);
+// }
+// calculator(4,5,(a,b)=>{
+//     console.log(a+b)
+// });
 
 
 //callback hell-nested callbacks creating one another one
+
+let promise=new Promise((resolve,reject)=>{
+    console.log("45678");
+
+})
+console.log(promise)
